@@ -1,6 +1,7 @@
 ion-header {
   ion-toolbar {
     --min-height: 100px;
+
     ion-title {
       align-items: flex-end;
 
@@ -11,7 +12,7 @@ ion-header {
       }
 
       span {
-        font: 22px;
+        font-size: 22px;
       }
 
       ion-button {
@@ -115,6 +116,13 @@ ion-content {
 }
 
 ion-footer {
+  &.hidden {
+    height: 0;
+
+    ion-slides {
+      opacity: 0;
+    }
+  }
   ion-slide {
     .container {
       width: 100%;
@@ -131,8 +139,12 @@ ion-footer {
       }
 
       span {
-        font-size:  16px;
+        font-size: 16px;
       }
     }
   }
+}
+
+.opacity-transition {
+  transition: opacity 0.3s;
 }
