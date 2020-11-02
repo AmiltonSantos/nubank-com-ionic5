@@ -14,3 +14,16 @@
 
 <ion-content color="primary">
 </ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-slides [options]="slidesOptions">
+      <ion-slide *ngFor="let option of options">
+        <div class="container  ion-text-left">
+          <ion-icon [name]="option.icon"></ion-icon>
+          <span>{{ option.text }}</span>
+        </div>
+      </ion-slide>
+    </ion-slides>
+  </ion-toolbar>
+</ion-footer>
