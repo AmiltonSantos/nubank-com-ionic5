@@ -20,6 +20,14 @@ export class HomePage {
 
   public slidesOptions: any = { slidesPerView: 3, freeMode: true };
 
+  public itens: Array<any> = [
+    { icon: 'help-circle-outline', text: 'Me ajuda' },
+    { icon: 'person-outline', text: 'Perfil' },
+    { icon: 'cash-outline', text: 'Configurar conta' },
+    { icon: 'card-outline', text: 'Configurar cartão' },
+    { icon: 'phone-portrait-outline', text: 'Configurações do app' },
+  ];
+
   constructor() { }
 
 }

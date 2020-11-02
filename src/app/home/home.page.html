@@ -12,7 +12,27 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="primary">
+<ion-content class="ion-padding" color="primary">
+  <div class="background">
+    <div class="bank-information ion-text-center">
+      <img class="qrcode" src="/assets/qrcode.png">
+      
+      <span>Banco <strong>000 - Nu Pagamento S.A</strong></span>
+      <span>Agência <strong>0000</strong></span>
+      <span>Conta <strong>0000-0</strong></span>
+    </div>
+
+    <ion-list lines="full">
+      <ion-item *ngFor="let item of itens" detail>
+        <ion-icon slot="start" [name]="item.icon"></ion-icon>
+        <ion-label>{{ item.text }}</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-button class="logout" color="light" expand="block" fill="outline">
+      <strong>SAIR DA CONTA</strong>
+    </ion-button>
+  </div>
 </ion-content>
 
 <ion-footer class="ion-no-border">
