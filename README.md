@@ -8,3 +8,10 @@
 
 # nubank-com-ionic5
 Recriando a interface do Nubank com Ionic 5, com gestos e animações - Tutorial do canal -> Igor Remas
+
+<p align="center">
+  <a>
+    <img src="./src/assets/img/nubank001.gif">
+  </a>
+</p>
+
