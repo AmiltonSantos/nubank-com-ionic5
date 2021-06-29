@@ -16,7 +16,7 @@ Recriando a interface do Nubank com Ionic 5, com gestos e animações - Tutorial
 </p>
 
 ### Instalar o NodeJs e Ionic :
--Instalar o [NODEJS](https://nodejs.org/en/) 
+-Instalar o [https://nodejs.org/en/](https://nodejs.org/en/) 
 
 ```bash
 $ sudo npm install -g ionic
